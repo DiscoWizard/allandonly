@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position:relative;
+  background-color: white;
+  color:black;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin: 15%;
+}
+
+.instruction {
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+  margin: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#answer {
+  width: 100%;
+}
+
+a {
+  color:blue;
+}
+
+#submit {
+  background-color: grey;
+  border: none;
+  color:white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+}
