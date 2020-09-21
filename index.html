@@ -8,17 +8,60 @@
     </head>
 
 <body>
+
+  <div class="main">
 <div class="instruction">
   <h2> Tell me why I should care. </h2>
   <textarea id="write"rows="10"cols="50"></textarea>
 </div>
 
-<a class="submit" href="/response">Submit</a>
+<a class="submit" href="allandonly/response">Submit</a>
+
+</div>
+
+<div class="info">
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">info</button> </div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>A simulation for engaging with trolls online, where you get all the satisfaction of sharing your thoughts with appropriate feedback, but no actual troll gets any enjoyment out of it.</p>
+    <p>Unless you count <a target="_blank" href="http://wizardkicks.com/">me</a>, I guess. Have fun.</p>
+  </div></div>
 
 
 
+  <script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
 
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
 
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
 </body>
 
 </html>
