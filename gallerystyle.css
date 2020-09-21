@@ -54,12 +54,11 @@ h1 {
 h3 {
   font-size: 13px;
   font-weight: lighter;
-  color: gray;
+  color: #b5b5b5;
 }
 
 a {
-  color: #1fadff;
-  text-decoration: none;
+  color: #5cc3ff;
 }
 
 #flote {
