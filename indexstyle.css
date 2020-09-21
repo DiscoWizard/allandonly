@@ -10,6 +10,7 @@ body {
   align-content: center;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  overflow-y: hidden;
 }
 
 .instruction {
@@ -28,7 +29,8 @@ textarea {
   resize: none;
   margin: 20px;
   font-family: 'Open Sans', sans-serif;
-  width: 50%;
+  width: 50em;
+  max-width: -webkit-fill-available;
 }
 
 #answer {
@@ -124,9 +126,19 @@ a {
     width: 80%;
   }
 
+textarea {
+  max-width: -webkit-fill-available;
+  width: 30em;
+}
 
-  textarea {
-    width: 90vw;
+.ah {
+  margin-top: 50%;
+}
+
+
+  .info {
+    left: 45%;
+    top:60vh;
   }
 
 }
