@@ -1,0 +1,106 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position:relative;
+  background-color: white;
+  color:black;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.gall {
+  position: relative;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+#flote {
+  position: absolute;
+  z-index: 10;
+  cursor: move;
+  max-width: 500px;
+  left: 0px;
+  }
+  #flote2 {
+  position: absolute;
+  z-index: 10;
+  cursor: move;
+  max-width: 500px;
+  right: 0px;
+  }
+  #flote3 {
+  position: absolute;
+  z-index: 10;
+  cursor: move;
+  max-width: 500px;
+  left: 0px;
+  }
+  #flote4 {
+  position: absolute;
+  z-index: 10;
+  cursor: move;
+  max-width: 500px;
+  right: 0px;
+  }
+  #flote5 {
+  position: absolute;
+  z-index: 10;
+  cursor: move;
+  max-width: 500px;
+  left: 0px;
+  }
+  #flote6 {
+  position: absolute;
+  z-index: 10;
+  cursor: move;
+  max-width: 500px;
+  right: 0px;
+  }
+  #flote7 {
+  position: absolute;
+  z-index: 10;
+  cursor: move;
+  max-width: 500px;
+  left: 0px;
+  }
+  #flote8 {
+  position: absolute;
+  z-index: 10;
+  cursor: move;
+  max-width: 500px;
+  right: 0px;
+  }
+  #flote9 {
+  position: absolute;
+  z-index: 10;
+  cursor: move;
+  max-width: 500px;
+  left: 0px;
+  }
+  #flote10 {
+  position: absolute;
+  z-index: 10;
+  cursor: move;
+  max-width: 500px;
+  right: 0px;
+  }
+
+
+
+.flotehold {
+  position: relative;
+  width:100%;
+  border-color: red;
+  height:40vh;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  margin:100px;
+}
