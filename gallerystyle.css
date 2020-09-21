@@ -39,9 +39,23 @@ body {
   height:40vh;
 }
 
+.tite {
+  margin:100px;
+}
+
 h1 {
   font-family: 'Rock Salt', cursive;
-  margin:100px;
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: lighter;
+  color: gray;
+}
+
+a {
+  color: #1fadff;
+  text-decoration: none;
 }
 
 #flote {
