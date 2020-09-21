@@ -28,6 +28,7 @@ textarea {
   resize: none;
   margin: 20px;
   font-family: 'Open Sans', sans-serif;
+  width: 50%;
 }
 
 #answer {
@@ -123,5 +124,9 @@ a {
     width: 80%;
   }
 
+
+  textarea {
+    width: 80%;
+  }
 
 }
