@@ -10,7 +10,6 @@ body {
   align-content: center;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  margin: 0px;
 }
 
 .instruction {
@@ -114,7 +113,9 @@ a {
   cursor: help;
 }
 
-
+.ah {
+  margin-top: 10%;
+}
 
 
 @media only screen and (max-width: 800px) {
